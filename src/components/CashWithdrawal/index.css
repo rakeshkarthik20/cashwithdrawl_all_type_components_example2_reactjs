@@ -1,0 +1,78 @@
+* {
+  font-family: 'Roboto';
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.subContainer {
+  background-color: #150b3e;
+  width: 450px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.userDetails {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding: 10px; */
+  margin: 15px;
+}
+.logo {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding: 18px 25px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.name {
+  color: #d4d2db;
+  font-weight: 500;
+  font-size: 24px;
+}
+.balanceContainer {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  margin: 15px;
+  padding-left: 10px;
+}
+.balanceHeading {
+  color: #585076;
+  font-weight: 500;
+  font-size: 24px;
+}
+/* .balanceSubContainer {
+  display: flex;
+  padding: 0px;
+} */
+.balance {
+  color: #d4d2db;
+  font-weight: 500;
+  font-size: 30px;
+}
+.currencyType {
+  color: #585076;
+  font-weight: 500;
+}
+.denominationContainer {
+  margin: 15px;
+  padding-left: 10px;
+}
+.withdraw {
+  color: #d4d2db;
+  font-weight: 500;
+}
+.description {
+  color: #585076;
+  font-weight: 700;
+}
+.buttons {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
